@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: master_orders_denormalized
+    description: "Master Table of Orders with all needed joins"
+    columns:
+      - name: o_orderkey
+        description: "The order key for this table"
+        data_tests:
+          - not_null
+      - name: o_custkey
+        description: "The Customer key for this table"
+        data_tests:
+          - not_null
