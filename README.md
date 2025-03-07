@@ -1,6 +1,9 @@
 Welcome to your new dbt project!
 
-### Using the starter project
+# Medallion Data Architecture with Dbt & DuckDb
+
+## Get Started
+1 - Create the ~/.dbt/profiles.yaml with the below content (update the path to the duck db) 
 
 Try running the following commands:
 - dbt run

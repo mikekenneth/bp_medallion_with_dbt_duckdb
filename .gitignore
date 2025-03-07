@@ -1,5 +1,6 @@
 # Custom
 data/*.duckdb
+data/duckdb
 *.db
 
 # Byte-compiled / optimized / DLL files
